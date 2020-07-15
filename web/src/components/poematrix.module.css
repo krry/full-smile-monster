@@ -1,0 +1,12 @@
+.root {
+  color: red;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.list {
+  display: inline-block;
+  list-style: circle;
+}

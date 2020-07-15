@@ -1,0 +1,12 @@
+.root {
+  background: gray;
+  color: blue;
+}
+
+.title {
+  font-family: sans-serif;
+}
+
+.verse {
+  font-family: serif;
+}
