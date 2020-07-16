@@ -1,6 +1,9 @@
+import { GiClayBrick } from 'react-icons/gi'
+
 export default {
   title: 'Project',
   name: 'project',
+  icon: GiClayBrick,
   type: 'document',
   fields: [
     {

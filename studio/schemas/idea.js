@@ -1,6 +1,9 @@
+import { GiLightBulb } from 'react-icons/gi'
+
 export default {
   name: 'idea',
   title: 'Idea',
+  icon: GiLightBulb,
   type: 'document',
   fields: [
     {
