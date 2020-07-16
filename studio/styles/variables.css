@@ -2,10 +2,10 @@
 
 :root {
   /* Brand colors */
-  --brand-primary: hsl(262, 81%, 47%);
-  --brand-primary-inverted: #ffffff;
-  --brand-secondary: hsl(196, 80%, 63%);
-  --brand-secondary-inverted: hsl(196, 42%, 17%);
+  --brand-primary: hsl(302, 70%, 50%);
+  --brand-primary-inverted: hsl(196, 87%, 92%);
+  --brand-secondary: hsl(262, 81%, 47%);
+  --brand-secondary-inverted: var(--white);
   /* Typography */
   --body-font: "Lato", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --text-font: "Aleo", Georgia, serif;
@@ -13,8 +13,8 @@
   --font-family-sans-serif: var(--body-font);
   --font-size-base: 18px;
   /* Main Navigation */
-  --main-navigation-color: var(--brand-primary);
-  --main-navigation-color--inverted: var(--brand-primary-inverted);
+  --main-navigation-color: var(--brand-secondary);
+  --main-navigation-color--inverted: var(--brand-secondary-inverted);
 }
 
 /* Atmanautica.com COLOR PALETTE
