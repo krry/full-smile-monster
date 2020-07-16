@@ -4,23 +4,24 @@ export default {
   type: 'document',
   fields: [
     {
-      title: 'Title',
       name: 'title',
+      title: 'Title',
       type: 'string'
     },
     {
-      title: 'Cover',
       name: 'cover',
+      title: 'Cover',
       type: 'image'
     },
     {
-      title: 'Authors',
-      name: 'authors',
+      name: 'concept',
+      title: 'Concept',
       type: 'array',
+      description: 'Which legos are in this set?',
       of: [{
         type: 'reference',
-        to: [ { type: 'person' } ]
-      }],
+        to: [{ type: 'idea' }]
+      }]
     }
   ]
 }

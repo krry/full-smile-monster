@@ -4,6 +4,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import person from './person'
+import idea from './idea'
 import project from './project'
 import poem from './poem'
 
@@ -16,6 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     person,
+    idea,
     project,
     poem
   ])
